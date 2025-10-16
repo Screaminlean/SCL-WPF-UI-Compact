@@ -2,6 +2,8 @@
 Template for creating WPF Ui project with MVVM pattern, Dependancy Injection, Compact navigation and Mica background.
 # Demo animation
 
+![Demo animated gif of SCL-WPF-UI-Compact](https://github.com/Screaminlean/SCL-WPF-UI-Compact/blob/main/Images/SCL-WPF-UI-Compact-Demo.gif)
+
 # Project Status
 [![.NET](https://img.shields.io/badge/.NET-9-512BD4)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
