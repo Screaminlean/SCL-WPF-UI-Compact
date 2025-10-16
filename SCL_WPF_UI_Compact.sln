@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCL WPF UI Compact", "SCL WPF UI Compact\SCL WPF UI Compact.csproj", "{41E31C2C-22E1-4751-BD65-B91D8DD080B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCL WPF UI Compact", "SCL_WPF_UI_Compact\SCL_WPF_UI_Compact.csproj", "{41E31C2C-22E1-4751-BD65-B91D8DD080B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
