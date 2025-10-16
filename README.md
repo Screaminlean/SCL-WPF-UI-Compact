@@ -142,7 +142,7 @@ To use this in Visual Studio 2022 you can do one of the following;
 - Next time you open Visual Studio it will be available.
 
 ## Download the zip
-- Download the zip archive from the assets on the releases page of this repository. (Link to follow)
+- Download the zip archive from the assets on the [releases](https://github.com/Screaminlean/SCL-WPF-UI-Compact/releases/) page of this repository.
 - Copy the zip file to `C:\Users\YourUserName\Documents\Visual Studio 2022\Templates\ProjectTemplates\C#`.
 - Next time you open Visual Studio it will be available.
 
