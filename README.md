@@ -106,19 +106,13 @@ Create JSON files named after the language code (e.g., `en-US.json`, `fr-FR.json
 - [ ] if a key is missing in the selected language it does not fall back to the default language. It falls back to the key. Implement a user friendly fallback mechanism.
 
 ## SnackBar Notifications
-The template includes a SnackBar notification system for displaying transient messages to users. The SnackBar is integrated into the MainWindow and can be accessed from any ViewModel through the `ISnackbarService`.
+The template includes a SnackBar notification system for displaying transient messages to users. The SnackBar is integrated into the MainWindow and can be accessed from any ViewModel.
 This uses the WeakReference Messenger from CommunityToolkit.Mvvm to avoid memory leaks.
 
 ### Usage in ViewModel
-To display a SnackBar message from any ViewModel, inject the `ISnackbarService` and call the `Show` method:
 ```csharp
-public class YourViewModel 
+public partial class YourViewModel : ObservableObject
 { 
-    private readonly ISnackbarService _snackbarService;
-    public YourViewModel(ISnackbarService snackbarService)
-    {
-        _snackbarService = snackbarService;
-    }
     public void SomeMethod()
     {
         // Show a SnackBar message
