@@ -62,7 +62,7 @@ The template includes a robust localization system that supports multiple langua
 ### Use In ViewModel
 ```csharp
 // Inject the localization service 
-public class YourViewModel 
+public partial class YourViewModel : ObservableObject
 { 
     private readonly ILocalizationService _loc;
 
