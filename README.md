@@ -84,7 +84,7 @@ public partial class YourViewModel : ObservableObject
 ### Use in XAML
 Ensure you add the Extensions namespace to your XAML file:
 ```xml
-xmlns:loc="clr-namespace:SCL.WPF.UI.Compact.Extensions"
+xmlns:loc="clr-namespace:Your_Namspace.Extensions"
 ```
 Then you can:\
 Use the LocalizeExtension to bind text in XAML:
